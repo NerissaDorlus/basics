@@ -1,3 +1,5 @@
+//Week 1 Day 2
+
 // 1. Write a function that adds two numbers together
 function add2Nums(n1, n2){
     return n1 + n2 
@@ -50,3 +52,41 @@ function getFirstElement(arr){
         return arr[0]
 }
 console.log(getFirstElement(familyArray))
+
+//Week 1 Day 3
+
+// Pyramid problem:
+// print:  (using a loop)
+// #
+// ##
+// ###
+// ####
+// #####
+
+let result = '#'
+    for(let i = 0; i < 5; i++) {
+        console.log(result) // must console brefore result in order to display each
+        result = result + '#'
+    }
+
+// Extra assignment for experts: 
+// 1. Write a function named assignGrade that takes one argument, a number score.
+// Returns a grade for the score, either  "A," "B," "C," "D," or "F." Call that 
+// function for a few different scores and log the result to make sure it works.
+
+ 
+function assignGrade(score){
+    if(score >= 90){
+        return 'A'
+    } else if(score >= 80){
+        return 'B'
+    }else if(score >= 70){
+        return 'C'
+    }else if(score >= 60){
+        return 'D'
+    } else{
+        return 'F'
+    }
+}
+
+console.log(assignGrade(60));
