@@ -1,0 +1,24 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrays.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NerissaDorlus/basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NerissaDorlus/basics/issues"
+  },
+  "homepage": "https://github.com/NerissaDorlus/basics#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.3"
+  }
+}
