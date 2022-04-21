@@ -63,10 +63,10 @@ console.log(getFirstElement(familyArray))
 // ####
 // #####
 
-let result = '#'
+let result = '#' 
     for(let i = 0; i < 5; i++) {
         console.log(result) // must console brefore result in order to display each
-        result = result + '#'
+         result = result + '#'
     }
 
 // Extra assignment for experts: 
